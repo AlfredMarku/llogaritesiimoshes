@@ -1,3 +1,4 @@
+// Funksioni:
 function age() {
     var d1 = document.getElementById("date").value;
     var m1 = document.getElementById("month").value;
@@ -17,11 +18,13 @@ function age() {
         m2 = m2 + 12;
         y2 = y2 - 1;
     }
+// Rezultati i moshes:
+   
     var d = d2 - d1;
     var m = m2 - m1;
     var y = y2 - y1;
     document.getElementById("age").innerHTML =
-        "Ju jeni " + y + " Vjeç e " + m + " Muaj e " + d + " Ditë !!!" + " <br> Ju uroj jete te gjate 😇. ";
+        "Ju jeni " + y + " Vjeç e " + m + " Muaj e " + d + " Ditë 😄!!!" + " <br> Urime, edhe 100 të tjera 😇👐🤗. ";
 
 
 }
