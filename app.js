@@ -28,6 +28,7 @@ function age() {
 
 
 }
+// Funksioni qe te detyron te fusesh vetem numra
 
 function isNumber(evt) {
     evt = (evt) ? evt : window.event;
