@@ -14,22 +14,24 @@
             <div class="base">
                 <div class="enter">
                     <h4>Llogaritësi i moshës</h4>
-                     <marquee>Nga Alfred Marku - Github.com/AlfredMarku</marquee>
+                     
                 </div>
+                <marquee>Nga Alfred Marku - Github.com/AlfredMarku
+                     </marquee>
                 <div class="block">
                     <p class="title">Data</p>
-                    <input type="text" name="date" id="date" placeholder="dd" required="required" minlength="1"
-                        maxlength="2" />
+                    <input type="text" minlength="1"
+                    maxlength="2" name="date" id="date" placeholder="dd" required="required" onkeypress="return isNumber(event)"/>
                 </div>
                 <div class="block">
                     <p class="title">Muaji</p>
                     <input type="text" name="month" id="month" placeholder="mm" required="required" minlength="1"
-                        maxlength="2" />
+                        maxlength="2" onkeypress="return isNumber(event)" />
                 </div>
                 <div class="block">
                     <p class="title">Viti</p>
-                    <input type="text" name="year" id="year" placeholder="vvvv" required="required" minlength="4"
-                        maxlength="4" />
+                    <input type="text" name="year" minlength="4"
+                    maxlength="4" id="year" placeholder="vvvv" required="required" onkeypress="return isNumber(event)" />
                 </div>
             </div>
             <div class="base">
