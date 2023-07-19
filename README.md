@@ -1,1 +1,2 @@
 # llogaritesiimoshes
+shume i thjesht
